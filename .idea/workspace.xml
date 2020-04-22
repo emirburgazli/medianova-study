@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4255265f-f39f-4a11-81ed-bd1f5e42b67d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/partials/head.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f524496-5b7e-4cc7-a21f-7081467b8210.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f524496-5b7e-4cc7-a21f-7081467b8210.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +55,13 @@
         <item name="MySQL - laravel_Shop@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="laravel_Shop: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="books: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - laravel_Shop@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="laravel_Shop: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="category: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
       <path>
@@ -60,6 +75,11 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Emir Burgazli &lt;emirburgazli@emirs-macbook-air.local&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -223,7 +243,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586808598614</updated>
-      <workItem from="1586808603719" duration="91380000" />
+      <workItem from="1586808603719" duration="101618000" />
     </task>
     <servers />
   </component>
@@ -243,10 +263,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="477" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1587031478339" />
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586976438487">
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587583496286">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1586976438487" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587583496286" />
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1587722045231">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587722045231" />
     <state width="958" height="245" key="GridCell.Tab.0.bottom" timestamp="1586861192207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -267,10 +291,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="219" height="498" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1586851968218" />
-    <state x="544" y="374" key="NewPhpFileDialog" timestamp="1587553551901">
+    <state x="544" y="374" key="NewPhpFileDialog" timestamp="1587717486006">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="544" y="374" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1587553551901" />
+    <state x="544" y="374" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1587717486006" />
     <state x="544" y="365" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1586938525590" />
     <state x="152" y="53" key="SettingsEditor" timestamp="1586933315054">
       <screen x="0" y="23" width="1440" height="823" />
@@ -292,10 +316,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="143" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1587382358594" />
-    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup" timestamp="1587564048030">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="385" y="161" width="670" height="740" key="search.everywhere.popup" timestamp="1587581967215">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="161" width="670" height="740" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587562754185" />
+    <state x="385" y="161" width="670" height="740" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587581967215" />
     <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1587564048030" />
     <state x="450" y="372" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586954721122">
       <screen x="0" y="0" width="1440" height="900" />

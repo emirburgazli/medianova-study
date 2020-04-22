@@ -1368,7 +1368,7 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="331" name="CategoryName">
+    <column id="341" parent="331" name="name">
       <Position>2</Position>
       <DataType>varchar(191)|0s</DataType>
       <NotNull>1</NotNull>

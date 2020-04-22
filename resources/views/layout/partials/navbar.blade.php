@@ -1,4 +1,3 @@
-
 <nav id="sidebar">
     <div class="sidebar-header">
         <h3>Menü</h3>
@@ -10,7 +9,7 @@
             <a href="/">Home</a>
         </li>
         <li>
-            <a href="/books">Books</a>
+            <a href="{{ route('books') }}">Books</a>
         </li>
         <li>
             <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Products</a>
@@ -18,9 +17,9 @@
                 <li>
                     <a href="/products">All Products</a>
                 </li>
-                @foreach($categoryList as $category)
+                @foreach($categories as $category)
                     <li>
-                        <a href="#"> {{ $category->name  }}</a>
+                        <a href="{{route('category',$category->name)  }}"> {{ $category->name  }}</a>
                     </li>
                 @endforeach
             </ul>

@@ -11,8 +11,9 @@ class BooksController extends Controller
     public function GetAllBooks()
     {
         $getBooksList = Books::all();
+
         return view('layout.Books',compact('getBooksList'));;
     }
 
-    
+
 }

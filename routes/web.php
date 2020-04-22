@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','CategoryController@getCategoryName');
-//Route::get('/', 'MainPageController@index');
-Route::get('/products','ProductsController@getProductTable');
-Route::get('/books','BooksController@GetAllBooks');
+Route::get('/','MainPageController@index')->name('mainpage');
+Route::get('/category/{ name } ', 'CategoryController@index')->name('category');
+Route::get('/products','ProductsController@getProductTable')->name('products');
+Route::get('/books','BooksController@GetAllBooks')->name('books');
 
 
 Route::view('/login','pages.login');

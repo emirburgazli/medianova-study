@@ -3,16 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
-
+use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function getCategoryName()
+    public function index($name)
     {
-        $categoryList = Category::all();
-
-        return view('welcome', compact('categoryList'));
+        $categories = Category::where('name','$name')->firstOrFail();
+        return view('layout.partials.navbar', compact('categories'));
     }
-
 
 }
