@@ -177,6 +177,7 @@
 </head>
 <body>
 <div class="wrapper">
+
     <nav id="sidebar">
         <div class="sidebar-header">
             <h3>Menü</h3>
@@ -196,9 +197,9 @@
                     <li>
                         <a href="/products">All Products</a>
                     </li>
-                    @foreach( $kategoriler as $kategori )
+                    @foreach($categoryList as $category)
                         <li>
-                            <a href="#"> {{ $kategori->CategoryName  }}</a>
+                            <a href="#"> {{ $category->name  }}</a>
                         </li>
                     @endforeach
                 </ul>
@@ -210,7 +211,6 @@
             <li><a></a></li>
         </ul>
     </nav>
-
 
     <div id="content">
        @yield('content')

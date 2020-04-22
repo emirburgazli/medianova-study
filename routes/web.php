@@ -13,10 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {return view('welcome');});
+Route::get('/','CategoryController@getCategoryName');
 //Route::get('/', 'MainPageController@index');
 Route::get('/products','ProductsController@getProductTable');
 Route::get('/books','BooksController@GetAllBooks');
+
 
 Route::view('/login','pages.login');
 

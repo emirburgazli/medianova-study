@@ -3,17 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 
 class CategoryController extends Controller
 {
-    public function GetCategoryName() {
+    public function getCategoryName()
+    {
+        $categoryList = Category::all();
 
-        $kategoriler = Category::all();
-
-        return view('welcome' , compact('kategoriler'));
+        return view('welcome', compact('categoryList'));
     }
 
 
