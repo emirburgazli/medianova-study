@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" afterDir="false" />
     </list>
+    <list default="true" id="4255265f-f39f-4a11-81ed-bd1f5e42b67d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,6 +245,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586808598614</updated>
+<<<<<<< HEAD
       <workItem from="1586808603719" duration="105901000" />
     </task>
     <task id="LOCAL-00001" summary="main page controller eklendi">
@@ -259,6 +261,9 @@
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1587722060623</updated>
+=======
+      <workItem from="1586808603719" duration="91624000" />
+>>>>>>> 18769be3cf5f208a4a475e8b399aae560b3bf3e5
     </task>
     <task id="LOCAL-00003" summary="24.04.2020">
       <created>1587747299191</created>
