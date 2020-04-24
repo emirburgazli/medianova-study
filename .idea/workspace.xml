@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4255265f-f39f-4a11-81ed-bd1f5e42b67d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f524496-5b7e-4cc7-a21f-7081467b8210.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f524496-5b7e-4cc7-a21f-7081467b8210.xml" afterDir="false" />
+    <list default="true" id="4255265f-f39f-4a11-81ed-bd1f5e42b67d" name="Default Changelist" comment="main page controller eklendi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BooksController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/Books.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/Books.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/ProductTable.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/ProductTable.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/navbar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
@@ -81,6 +81,13 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/emirburgazli/medianova-study.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -243,12 +250,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586808598614</updated>
-      <workItem from="1586808603719" duration="101618000" />
+      <workItem from="1586808603719" duration="104746000" />
     </task>
+    <task id="LOCAL-00001" summary="main page controller eklendi">
+      <created>1587722045665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587722045665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="main page controller eklendi">
+      <created>1587722060623</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587722060623</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main page controller eklendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="main page controller eklendi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="117" key="#MySQL" timestamp="1586852796794">
@@ -267,10 +304,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587583496286" />
-    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1587722045231">
+    <state x="331" y="52" key="CommitChangelistDialog2" timestamp="1587722076425">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587722045231" />
+    <state x="331" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587722076425" />
     <state width="958" height="245" key="GridCell.Tab.0.bottom" timestamp="1586861192207">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

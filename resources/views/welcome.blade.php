@@ -11,7 +11,34 @@
 </head>
 <body>
 <div class="wrapper">
-   @include('layout.partials.navbar')
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Menü</h3>
+        </div>
+        <ul class="list-unstyled components">
+            <p></p>
+            <li class="active">
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="{{ route('books') }}">Books</a>
+            </li>
+            <li>
+            <li>
+                <a href="{{ route('products') }}">Prodcuts</a>
+            </li>
+            <li>
+
+            </ul>
+        </li>
+        </ul>
+        <ul class="list-unstyled CTAs">
+            <li><a href="/login" class="download">Giriş Yap</a></li>
+            <li><a></a></li>
+        </ul>
+    </nav>
+
     <div id="content">
         @yield('content')
     </div>

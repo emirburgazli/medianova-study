@@ -12,6 +12,9 @@
             <a href="{{ route('books') }}">Books</a>
         </li>
         <li>
+            <a href="{{ route('books') }}">Books</a>
+        </li>
+    <!--    <li>
             <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Products</a>
             <ul class="collapse list-unstyled" id="pageSubmenu">
                 <li>
@@ -23,7 +26,7 @@
                     </li>
                 @endforeach
             </ul>
-        </li>
+        </li> -->
 
     </ul>
     <ul class="list-unstyled CTAs">
