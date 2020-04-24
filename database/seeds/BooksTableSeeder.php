@@ -15,7 +15,7 @@ class BooksTableSeeder extends Seeder
 
         for ($i = 0; $i <= 10; $i++) {
         DB::table('books')->insert([
-            'BookName' => "Cin Ali git commit -m “daily commit”".$i,
+            'BookName' => "Cin Ali".$i,
             'ISBN' => random_int(100,999) ."-". random_int(100,999) ."-". random_int(100,999),
             'Price' => random_int(10,200),
             'PageCount' => random_int(40,500),

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4255265f-f39f-4a11-81ed-bd1f5e42b67d" name="Default Changelist" comment="" />
+    <list default="true" id="4255265f-f39f-4a11-81ed-bd1f5e42b67d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/BooksTableSeeder.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +244,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586808598614</updated>
-      <workItem from="1586808603719" duration="105509000" />
+      <workItem from="1586808603719" duration="105901000" />
     </task>
     <task id="LOCAL-00001" summary="main page controller eklendi">
       <created>1587722045665</created>
@@ -351,11 +355,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="449" y="143" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1587382358594" />
-    <state x="385" y="161" width="670" height="740" key="search.everywhere.popup" timestamp="1587581967215">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup" timestamp="1587751011707">
+      <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="385" y="161" width="670" height="740" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1587581967215" />
-    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1587564048030" />
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1587751011707" />
     <state x="450" y="372" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1586954721122">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
